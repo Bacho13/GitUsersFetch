@@ -1,0 +1,81 @@
+.container{
+    width: 250px;
+    height: 275px;
+    background: radial-gradient(#4E545F, #363A42);
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    padding-top: 130px;
+    filter: drop-shadow(0px 4px 4px  #0f0f0f);
+    margin: auto;
+}
+
+.imgCont{
+    border: solid 3px #fff;
+    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+    top: -20px;
+    filter: drop-shadow(0px 4px 4px  #0f0f0f);
+}
+
+.img{
+    border-radius: 50%;
+    border: solid 10px #fff;
+    
+}
+
+.nameH1{
+    font-family: Urbanist;
+    color: #F3FDFF;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+
+.placeDiv{
+    display: flex;
+    width: 120px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+
+}
+
+
+.button{
+    bottom: 0;
+    background-color: #3A6CE3;
+	color: #F3FDFF;
+    opacity: 70%;
+	border: none;
+	height: 50px;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+    width: 100%;
+    border-radius: 0 0 9px 9px;
+    font-family: Urbanist;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+}
+
+.button:hover{
+    opacity: 100%;
+}
+
+
+
+/* .button:hover + .gitIcon{
+    color: rgba(225, 225, 225, 1);
+} */
+
+
+
+

@@ -1,0 +1,17 @@
+
+.Grid{
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,20rem));
+    justify-content: center;
+    align-content: center; 
+    row-gap: 40px;
+    margin-top: 50px;
+
+    /* padding: 10px; */
+  
+}
+
+.CardItem{
+    margin: 0 auto;
+}
