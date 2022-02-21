@@ -1,6 +1,6 @@
 import styles from "../styles/Card.module.css";
 import Image from "next/image";
-import { GoMarkGithub } from "react-icons/go";
+import  GoMarkGithub from "react-icons/go";
 import Link from "next/link"
 
 
