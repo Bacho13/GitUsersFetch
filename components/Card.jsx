@@ -1,6 +1,6 @@
 import styles from "../styles/Card.module.css";
 import Image from "next/image";
-// import  { FaGithub } from "react-icons/fa";
+import  { FaGithub } from "react-icons/fa";
 import Link from "next/link"
 
 
@@ -21,7 +21,7 @@ const Card = (props) => {
             <button className={styles.button}>
                 <Link href={props.pageUrl}>
                     <a target="_blank">
-                        {/* <FaGithub className={styles.gitIcon} /> */}
+                        <FaGithub className={styles.gitIcon} />
                     </a>
                 </Link>
             </button>
