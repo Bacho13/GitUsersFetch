@@ -64,6 +64,11 @@
     font-size: 30px;
     letter-spacing: 0.5px;
     transition: all 0.3s;
+    
+}
+
+.btnIcon{
+    margin-top: 7px;
 }
 
 .button:hover{
