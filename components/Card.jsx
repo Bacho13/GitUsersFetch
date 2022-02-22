@@ -1,6 +1,6 @@
 import styles from "../styles/Card.module.css";
 import Image from "next/image";
-import  { FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/lib/fa";
 import Link from "next/link"
 
 
@@ -18,13 +18,13 @@ const Card = (props) => {
             <h1 className={styles.nameH1}>{props.name}</h1>
 
             {/* button of the profile card with github icon and text navigates to the user github page */}
-            <button className={styles.button}>
-                <Link href={props.pageUrl}>
-                    <a target="_blank">
+            <Link href={props.pageUrl}>
+                <a target="_blank" className={styles.aBtn}>
+                    <button className={styles.button}>
                         <FaGithub className={styles.gitIcon} />
-                    </a>
-                </Link>
-            </button>
+                    </button>
+                </a>
+            </Link>
 
         </div >
     )
