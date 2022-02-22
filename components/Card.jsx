@@ -21,7 +21,7 @@ const Card = (props) => {
             <button className={styles.button}>
                 <Link href={props.pageUrl}>
                     <a target="_blank">
-                        <FaGithub className={styles.gitIcon} />
+                        {/* <FaGithub className={styles.gitIcon} /> */}
                     </a>
                 </Link>
             </button>
